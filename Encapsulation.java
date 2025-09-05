@@ -10,8 +10,8 @@
                       or properties and methods are combining in a single unit or capsule.   
                          (Encapsulation is used in Data Hiding)                                  */ //Local Variable = The variable that is declared inside a method
 //Instance variable = The variable that declared inside the class but outside the method
-//We can asscess objects within same class:           
-                                          // CASE 1
+//We can asscess objects within same class:          
+//                                          CASE 1
 class Encapsulation {
 
     private String name;

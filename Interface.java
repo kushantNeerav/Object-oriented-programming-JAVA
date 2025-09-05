@@ -25,7 +25,7 @@ class BMW implements Car {    //inherit by using impelemnts
     }
 }
 
-public class Interface implements Car {
+public class Interface implements Car {    //class name is jaguar but for complie run i make this Interface
 
     public void mailege() {
         System.out.println("4 KMPH");

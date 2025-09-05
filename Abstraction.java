@@ -30,7 +30,7 @@ class Horse extends Animal {
     }
 }
 
-class Abstraction extends Animal {
+class Abstraction extends Animal {              //class name is Chicken not abstraction for better understanding
 
     Abstraction() {
         System.out.println("Chicken:-");

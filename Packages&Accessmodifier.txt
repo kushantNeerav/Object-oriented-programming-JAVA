@@ -1,0 +1,88 @@
+Packages = Java Have two types of packages:
+          -> Built-in packages like scanner , file, Buffered, math
+          -> User-defined = Packages that user define
+
+  Packages in Java are a powerful way to organize your code, avoid naming conflicts,
+  and control access. Think of them like folders that group related classes, interfaces, 
+  and sub-packages together.
+
+
+
+  Access-Modifier :-
+  Java have four access-specifiers :-
+
+  1.Public= it can be accessible in a class.
+
+  2.Private= In this type only the class can access the private things not sub class, not package or not any inherit class.
+             (We can use private things in java by making Getters & Setters).
+
+  3.Protected= It can be used bysame package, another packages but not another classes.
+
+  4.Default =when we not use any specifier than java automatically count it as default means it can be 
+             accessible anywhere within the same package.
+
+  public syntax: 
+  class Ram{
+        public String name;       
+  }
+  public class Account{
+    public static void main(String...s)
+    {
+        Ram r=new Ram();
+        r.name="SHIV";                   
+    }
+  }
+
+  default syntax:
+    package Bank;               =any file which uses this same name package can access this String name
+    class Ram{
+         String name;     =default   
+  }
+  public class Account{
+    public static void main(String...s)
+    {
+        Ram r=new Ram();
+        r.name="SHIV";                   
+    }
+  }
+
+  Private syntax:
+   class Ram{
+        public string name
+        private String password;   = it is private    
+  }
+  public class Account{
+    public static void main(String...s)
+    {
+        Ram r=new Ram();
+        r.name="SHIV";    
+        r.password="ABC";      XerrorX = it gives Xerror as we cannot use password, we only access password in ram class only.              
+    }
+  }
+
+  By using getters & setters we can access password:-
+   class Ram{
+        public String name;  
+        private string password;    
+          
+     (   getters:-                         = it is called getters and setters
+        public string getpassword
+        {
+            return this.password;
+        } 
+
+        setters:-
+        public void setpasswrd(String pass)
+        {
+           this.password=password;
+        }                            )
+  }
+  public class Account{
+    public static void main(String...s)
+    {
+        Ram r=new Ram();
+        r.name="SHIV";       
+        r.setpasswrd="Kushant2004"
+        System.out.println(r.getpassword());   = it gives me the pasword i want.      
+    }
+  }

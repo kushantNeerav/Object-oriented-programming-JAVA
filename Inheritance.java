@@ -1,22 +1,22 @@
 //Inheritance = One class property share to another class Is called Inheritance
 //Types:
 
-//1.Single-Level Inheritance
-// class Shape {
-//     public void show() {
-//         System.out.println("Shape name displays here");
-//     }
-// }
-// class Triangle extends Shape {
-//     public void can() {
-//         System.out.println("Triangle");
-//     }
-//     public static void main(String... s) {
-//         Triangle t = new Triangle();
-//         t.show();
-//         t.can();
-//     }
-// }
+//                  1.Single-Level Inheritance
+//                 class Shape {
+//                 public void show() {
+//                    System.out.println("Shape name displays here");
+//                    }
+//                  }
+//                    class Triangle extends Shape {
+//                        public void can() {
+//                            System.out.println("Triangle");
+//                                  }
+//                     public static void main(String... s) {
+//                       Triangle t = new Triangle();
+//                       t.show();
+//                       t.can();
+//                         }
+//                       }
 
 
 
@@ -93,3 +93,13 @@
 //         t.ran();
 //     }
 // }
+
+//4.Hybrid-Inheritance:- In this type all the types of inheritance we see in same like single,multilevel,hierarchical
+
+//5.Multiple Inheritance:- It is not present in java in the form of classes but we can achieve it by Interfaces
+                             //(In this we have multiple parent classes that inherit by a single child class)
+
+                          //   - ❌ class Child extends Parent1, Parent2 → Not allowed in Java.
+                          //   - ✅ class Child implements Interface1, Interface2 → Perfectly valid.
+
+
